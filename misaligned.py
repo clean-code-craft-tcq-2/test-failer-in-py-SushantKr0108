@@ -9,5 +9,5 @@ def print_color_map():
 
 
 result = print_color_map()
-assert(result[24] == '25|Violet|Slate)
+assert(result[24] == '25|Violet|Slate')
 print("All is well (maybe!)\n")
