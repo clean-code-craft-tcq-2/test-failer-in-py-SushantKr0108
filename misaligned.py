@@ -4,7 +4,7 @@ def print_color_map():
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
     for i, major in enumerate(major_colors):
         for j, minor in enumerate(minor_colors):
-            colorNumPair.append(f'{(i * 5) + j + 1} | {major} | {minor}')
+            colorNumPair.append(f'{i * 5 + j + 1} | {major} | {minor}')
     return colorNumPair
 
 
